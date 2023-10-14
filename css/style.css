@@ -1,0 +1,757 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+@media screen and (max-width:1312px) {
+    div.plus {
+        position: relative;
+        left: 1200px !important;
+        top: 107px;
+    }
+}
+
+@media screen and (max-width:1297px) {
+    div.arrow {
+        position: relative;
+        left: 500px !important;
+        top: -65px;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width:1266px) {
+    div.plus {
+        position: relative;
+        left: 1160px !important;
+        top: 107px;
+    }
+}
+
+@media screen and (max-width:1226px) {
+    div.plus {
+        position: relative;
+        left: 1110px !important;
+        top: 107px;
+    }
+
+    div.arrow {
+        position: relative;
+        left: 460px !important;
+        top: -65px;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width:1176px) {
+    div.plus {
+        position: relative;
+        left: 1060px !important;
+        top: 107px;
+    }
+}
+
+@media screen and (max-width:1129px) {
+    div.plus {
+        position: relative;
+        left: 1000px !important;
+        top: 107px;
+    }
+
+    div.arrow {
+        position: relative;
+        left: 410px !important;
+        top: -65px;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width:1068px) {
+    div.plus {
+        position: relative;
+        left: 940px !important;
+        top: 107px;
+    }
+
+    div.arrow {
+        position: relative;
+        left: 380px !important;
+        top: -65px;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width:1007px) {
+    div.plus {
+        position: relative;
+        left: 880px !important;
+        top: 107px;
+    }
+
+    div.arrow {
+        position: relative;
+        left: 350px !important;
+        top: -65px;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width:948px) {
+    div.plus {
+        position: relative;
+        left: 820px !important;
+        top: 107px;
+    }
+
+    div.arrow {
+        position: relative;
+        left: 320px !important;
+        top: -65px;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width:888px) {
+    div.plus {
+        position: relative;
+        left: 760px !important;
+        top: 107px;
+    }
+
+    div.arrow {
+        position: relative;
+        left: 290px !important;
+        top: -65px;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width:827px) {
+    div.plus {
+        position: relative;
+        left: 700px !important;
+        top: 107px;
+    }
+
+    div.arrow {
+        position: relative;
+        left: 260px !important;
+        top: -65px;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width:770px) {
+    div.plus {
+        position: relative;
+        left: 640px !important;
+        top: 107px;
+    }
+
+    div.arrow {
+        position: relative;
+        left: 230px !important;
+        top: -65px;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width:767px) {
+    div.search {
+        text-align: left !important;
+    }
+
+    div.dropdown {
+        padding-left: 10px !important;
+    }
+
+}
+
+@media screen and (max-width:707px) {
+    div.plus {
+        position: relative;
+        left: 580px !important;
+        top: 107px;
+    }
+
+    div.arrow {
+        position: relative;
+        left: 200px !important;
+        top: -65px;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width:646px) {
+    div.plus {
+        position: relative;
+        left: 530px !important;
+        top: 107px;
+    }
+
+    div.arrow {
+        position: relative;
+        left: 170px !important;
+        top: -65px;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width:595px) {
+    div.plus {
+        position: relative;
+        left: 480px !important;
+        top: 107px;
+    }
+
+    div.arrow {
+        position: relative;
+        left: 140px !important;
+        top: -65px;
+        display: inline-block;
+    }
+
+    div.arrow span.tooltiptext {
+        position: absolute;
+        top: 100% !important;
+        left: 50% !important;
+        margin-left: -60px !important;
+    }
+}
+
+:root {
+    --green: rgb(30, 146, 140);
+}
+
+/* start nav styles */
+nav {
+    position: fixed;
+    z-index: 1;
+}
+
+div.menu ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+div.menu ul li {
+    display: inline;
+}
+
+div.menu ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 17px;
+    display: inline-block;
+}
+
+a.dropdown-item {
+    color: black !important;
+}
+
+a.dropdown-item:hover {
+    background-color: #DDD !important;
+}
+
+div.menu ul li.logo i,
+div.menu i {
+    color: #FFFFFF;
+}
+
+
+div.menu ul li.logo i {
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+div.menu {
+    margin: 0px;
+    padding: 0px;
+}
+
+div.menu ul li.logo {
+    padding: 10px;
+    background-color: var(--green);
+}
+
+div.menu ul li.logo:hover,
+div.dropdown:hover {
+    background-color: #DDD !important;
+    color: black !important;
+}
+
+
+div.menu ul li.logo span {
+    color: #FFFFFF;
+    padding: 10px;
+    padding-left: 0px;
+    font-size: 17px;
+    display: inline-block;
+}
+
+div.dropdown {
+    display: inline;
+    padding: 10px 20px;
+}
+
+div.dropdown span {
+    color: #FFFFFF;
+    font-size: 17px;
+}
+
+div.dropdown span:hover {
+    color: black !important;
+}
+
+div.menu ul li a:hover {
+    background-color: #FFFFFF;
+    color: black;
+}
+
+div.search {
+    text-align: right;
+}
+
+div.search i {
+    padding-right: 15px;
+    line-height: 40px;
+}
+
+/* end nav styles */
+/* start header style */
+header img {
+    max-height: 550px;
+    width: 100%;
+}
+
+/* end header style */
+
+/* start team style */
+
+article.team {
+    padding-bottom: 70px;
+}
+
+div.team-title {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+div.team-title h1 {
+    font-weight: normal;
+    font-size: 35px;
+}
+
+div.customer {
+    margin-top: 20px;
+}
+
+div.customer h2 {
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+div.customer {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+div.team-title p {
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    padding-top: 10px;
+}
+
+div.person {
+    margin-bottom: 20px;
+}
+
+div.person-pic {
+    text-align: center;
+}
+
+div.person-pic img {
+    border-radius: 50%;
+    min-width: 60%;
+    min-height: 60%;
+}
+
+div.person-pic img:hover {
+    opacity: 0.5;
+}
+
+div.person strong {
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+div.person span {
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+}
+
+
+
+/* end team style */
+/* start customer styles */
+article.customer-part {
+    background-color: rgb(36, 35, 35);
+    padding: 80px 0px;
+    position: relative;
+}
+
+article.customer-part div.card {
+    border: none !important;
+    border-radius: 0px !important;
+}
+
+article.customer-part div.card img {
+    border-radius: 0px !important;
+}
+
+div.card-body h5 {
+    font-size: 30px;
+    color: black;
+    font-weight: 400;
+}
+
+div.card-body h6 {
+    font-size: 25px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+p.card-text {
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+/* end customer styles */
+div.plus {
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background-color: var(--green);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 1250px;
+    top: 107px;
+}
+
+div.plus i {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+/* start price styles */
+article.price {
+    margin: 30px 0px 70px 0px;
+}
+
+div.price-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+div.price {
+    margin-bottom: 20px;
+}
+
+div.price-title h2 {
+    font-weight: 400;
+    font-size: 35px;
+}
+
+div.price-title p {
+    margin: 15px 0px;
+    font-size: 18px;
+}
+
+div.price-content {
+    text-align: center;
+}
+
+
+div.price-content div.card {
+    border: 1px solid #ddd !important;
+}
+
+div.price-content div.card div.card-body {
+    background-color: #000;
+}
+
+div.price-content div.card div.card-body h5 {
+    color: #FFFFFF;
+    padding: 20px 0px;
+    font-size: 30px;
+}
+
+div.price-content div.card div.card-body:hover {
+    opacity: 0.6;
+}
+
+li.list-group-item {
+    padding: 15px 0px;
+}
+
+li.list-group-item strong {
+    font-size: 20px;
+}
+
+li.list-group-item span {
+    font-size: 18px;
+}
+
+article.price div.row {
+    justify-content: space-between;
+}
+
+li.package-price strong {
+    font-size: 40px !important;
+    color: #000 !important;
+}
+
+li.package-price span {
+    font-size: 35px !important;
+}
+
+li.package-price p {
+    font-size: 20px;
+    color: #797878dd;
+}
+
+div.card-footer {
+    padding: 25px 0px;
+    background-color: #f0eeee;
+}
+
+div.card-footer button {
+    background-color: var(--green);
+    border-radius: 0px !important;
+    color: #FFFFFF;
+    font-size: 19px;
+    padding: 12px 22px;
+}
+
+div.card-footer button:hover {
+    background-color: #b9b7b7;
+}
+
+div.card-footer button i {
+    font-weight: bold;
+    font-size: 16px !important;
+}
+
+div.price-content div.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* end price styles */
+/* start contact styles */
+article.contact-part {
+    background-color: #f0eeee;
+    padding-top: 70px;
+}
+
+div.contact-details {
+    padding-bottom: 80px;
+}
+
+div.contact h2 {
+    font-size: 30px;
+    color: #000;
+    border-bottom: 5px solid var(--green);
+    font-weight: 400;
+    display: inline-block;
+}
+
+div.contact {
+    padding-top: 25px;
+}
+
+div.contact h3 {
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: 400;
+    color: #000;
+}
+
+div.contact p {
+    padding-top: 10px;
+    font-size: 19px;
+    color: #000;
+}
+
+div.info {
+    line-height: 50px;
+}
+
+div.info span {
+    color: #000;
+    font-size: 19px;
+    display: inline-block;
+    padding-left: 10px;
+    font-weight: 400;
+}
+
+div.info i {
+    color: var(--green);
+    font-size: 25px;
+}
+
+div.form-part {
+    background-color: #FFFFFF;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.form-part input {
+    width: 98%;
+    border-bottom: 1px solid #bebebedd !important;
+    border: none;
+    height: 40px;
+}
+
+div.form-part label {
+    padding-top: 15px;
+    font-size: 18px;
+    color: #000;
+    font-weight: 400;
+}
+
+div.check-label label {
+    padding: 0px !important;
+    display: block;
+    margin-left: 10px;
+}
+
+div.form-part input.check {
+    text-align: left !important;
+    width: 30px;
+    height: 30px;
+}
+
+div.checkbox {
+    align-items: center;
+}
+
+div.check-btn {
+    justify-content: space-between;
+}
+
+div.button button {
+    border-radius: 0px !important;
+    background-color: #000;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+div.button button:hover {
+    background-color: #DDD;
+}
+
+/* end contact styles */
+/* start footer styles */
+footer {
+    text-align: center;
+    background-color: #000;
+    padding-bottom: 90px;
+}
+
+footer h3 {
+    color: #FFFFFF;
+    font-size: 25px;
+    padding: 50px 0px 10px 0px;
+    font-weight: 400;
+}
+
+div.medias {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+div.medias div.media {
+    background-color: var(--green);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+div.media i {
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 12px 5px;
+}
+
+footer span {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+footer span a {
+    color: #FFFFFF;
+}
+
+div.arrow {
+    position: relative;
+    left: 545px;
+    top: -65px;
+    display: inline-block;
+}
+
+div.arrow i {
+    color: #FFFFFF;
+    line-height: 50px;
+    font-size: 25px;
+}
+
+.arrow:hover .tooltiptext {
+    visibility: visible;
+}
+
+.arrow:hover i {
+    color: #000;
+}
+
+div.arrow:hover {
+    background-color: #DDD;
+    height: 50px;
+    width: 50px;
+}
+
+
+
+div.arrow span.tooltiptext {
+    visibility: hidden;
+    position: absolute;
+    top: 5px;
+    right: 120%;
+    width: 120px;
+    background-color: var(--green);
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+    padding: 5px 0;
+}
+
+
+/* start footer styles */
